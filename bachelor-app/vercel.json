@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "app/api/**/*.js": {
+      "includeFiles": "node_modules/@prisma/client/libquery_engine-*"
+    }
+  }
+}
