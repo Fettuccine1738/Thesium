@@ -14,7 +14,7 @@ import { useFilterOnClient } from "@/hooks/useFilteredResults"
 import { Pagination } from "@/components/pagination"
 import { FieldsSkeleton, ProfessorsSkeleton, TopicsSkeleton } from "@/components/skeleton-loading"
 import { getFieldsFromTags } from "./backend/actions/fields/get-fields"
-import { getProfessors } from "./backend/actions/professors/get-professors"
+import { getProfessors } from "./backend/actions/professors/get-professors_supabase"
 import { getTopics } from "./backend/actions/topics/get-topics"
 
 type Field = {
