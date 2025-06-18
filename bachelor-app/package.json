@@ -51,7 +51,7 @@
     "vitest": "^3.1.2"
   },
   "prisma": {
-    "schema": "src/app/backend/prisma/schema.prisma"
+    "schema": "./src/app/backend/prisma/schema.prisma"
   },
   "engines": {
     "node": ">=20.0.0"
